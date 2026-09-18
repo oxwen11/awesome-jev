@@ -59,6 +59,9 @@ Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.p
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Jev judges which Read / Bash / Grep output is actually relevant before it enters Claude Code context
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Jev scores each tool call/result (keep / truncate / drop) for Claude Code compaction; [demo](https://x.com/tamarajtran/status/2100694549362553153)
 - [SkillRanker](https://github.com/Dicklesworthstone/skillranker) — Jev ranks which agent skills fit the next step from live session context (Choice + Noul; abstention when none fit)
+- [jevmeter](https://github.com/ChetasLua/jevmeter) — scores every transcript sentence for BS/spin/hype; ffmpeg burns a live meter into a 16:9 edit
+- [typesafe-adblock](https://github.com/realZachi/typesafe-adblock) — code finds ad-shaped DOM nodes; Jev Noul per candidate “is this a paid ad?”; removes above threshold (BYOK Chrome ext)
+- [jev-search](https://github.com/superagents-lab/jev-search) — Jev picks sources/time/query, then scores hit relevance; returns ranked links/snippets only; [live](https://jev.s1.dev)
 - [typesafe-skill-router](https://github.com/DECRUX9812/typesafe-skill-router) — Jev names the one Hermes skill worth loading before the model call (~$0.001/turn); abstains if low fit
 - [jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) — batched Choice over a skill catalogue → route / no_skill / review with need/ambiguity/fit Nouls
 - [typesafe-mod](https://github.com/BeLazy167/typesafe-mod) — Claude Code hook — Jev ranks installed skills per prompt; can also score AskUserQuestion options in parallel

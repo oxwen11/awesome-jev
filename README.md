@@ -41,6 +41,9 @@ Source for the community batch: [X @0xlogicrw](https://x.com/0xlogicrw/status/21
 - [fx auto-review](https://x.com/fazxes/status/2100300097695232164) — Jev as the safety classifier for fx auto mode; ~5–18× faster and more accurate than GPT-5.6 Luna on their benchmark
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — semantic allow/block on Pi bash/write/edit; fails closed when undecidable (~193–642ms)
 - [jev-claude](https://github.com/takezou621/jev-claude) — Stop-hook asks if work is actually done → block & continue if not; optional bash triage
+- [triagedy](https://github.com/m0rphtail/triagedy) — per alert: disposition close|escalate|contain|investigate plus severity/FP/IR probabilities; Rust policy maps to action
+- [privacy-facts](https://github.com/thenewpotato/privacy-facts) — ~14 privacy-policy questions as typed labels + confidence; picks supporting policy sections for excerpts
+- [sokit](https://github.com/jodan-alberts/sokit) — control questions each turn (next_action / spam-route / draft-safety Noul); ConfidenceGate → act|confirm|escalate
 
 ## Writing check
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) — Jev scores prose for information density, clarity, hostility, and corporate tells, then the compiler emits rustc-style diagnostics

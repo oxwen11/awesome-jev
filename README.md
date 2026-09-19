@@ -72,6 +72,7 @@ Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.p
 - [cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) — same keepCall/keepResult nouls for Cursor CLI agent history; re-injects kept facts after native compact
 - [Brainwires jev-mcp](https://github.com/Brainwires/jev-mcp) — MCP tools jev_rank / jev_verify / jev_next_step / jev_gate_action for chunk ranking, claim check, turn-done, and pre-destructive gates
 - [Reflex](https://github.com/kshetrajna12/reflex) — in-browser WebGPU Qwen doing noul/choice/score with probabilities; [demo](https://kshetrajna12.github.io/reflex/) · [thread](https://x.com/kshetrajna/status/2100739853101195744)
+- [json-render + Jev](https://github.com/vercel-labs/json-render) — Jev chooses catalog components / slots / action bindings; code assembles the UI spec (no free-form JSON); [docs](https://json-render.dev/docs/jev) · [demo](https://x.com/ctatedev/status/2101022101750571357)
 - [WTF is Jev (9 builds)](https://x.com/i/article/2100772231462961152) — Matt Van Horn roundup of early builds (browser agent, compaction, fx, routing, RAG, games, email, batch eval, on-device); [thread](https://x.com/mvanhorn/status/2100788572316139655)
 - [RAG chunk filter](https://x.com/kushbhuwalka/status/2100731050075050485) — per retrieved chunk, keep vs drop for precision (no author repo yet)
 - [Minecraft realtime](https://x.com/wuyang_zhou/status/2100727660875808913) — Jev for fast realtime actions while a planner LLM plans (multi-zombie fight)

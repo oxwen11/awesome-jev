@@ -58,6 +58,7 @@ Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.p
 - [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) — Jev as Choice / Score / Noul inside Claude Code, Desktop, and Codex
 - [jev-rules](https://github.com/EliaAlberti/jev-rules) — one Noul per standing rule (“is this request about that?”); Claude Code only sees matching rules
 - [pi-jev-skill-suggestion](https://github.com/iamdin/pi-jev-skill-suggestion) — Pi extension: strip skill listing; Jev gate + wide/narrow Choice → at most one skill (cookbook two-stage; fail open)
+- [classifier.dev](https://classifier.dev/) ([repo](https://github.com/mrmps/classifier-dev)) — hosted zero-shot labels via Jev (fast=Jev; smart=unsure → reasoning model)
 - [skillbox](https://github.com/kitze/skillbox) — self-hosted skills library (MCP); optional Jev recommends which skill fits the task
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — zsh autosuggestions: Jev ranks which past command you are completing as you type
 - [pg-jev](https://github.com/realZachi/pg-jev) — Postgres extension: filter/rank/classify rows with plain-language Jev conditions in SQL

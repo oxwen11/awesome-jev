@@ -1,9 +1,7 @@
-# Awesome Jev
+# Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 What people built with Jev (TypeSafe System One). Showcase, not a tools directory.
 Each line is a project and what Jev does inside it.
-
-License: [CC0-1.0](LICENSE) (list copy only; linked projects keep their own licenses).
 
 ## Routing
 

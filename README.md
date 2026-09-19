@@ -18,6 +18,7 @@ Each line is a project and what Jev does inside it.
 ## Realtime
 
 - [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — each step Jev picks the operation and the element from DOM state; small LLM only types; flight search demo 7s / $0.0039; [demo](https://x.com/gregpr07/status/2100411066966749359)
+- [WebMCP × Jev bench](https://webmcp.com/benchmark) — Jev picks WebMCP tools; Mercury fills args; 49/49 at ~112×–245× lower model cost vs GPT-6 Astra computer use; [thread](https://x.com/0xidanlevin/status/2100937437325205568) · [WindTunnel](https://github.com/nekuda-ai/WindTunnel)
 - [1v1 Jev](https://github.com/emrickgarrett/OneVOneJev) — Jev at about 9Hz picks move, aim, ADS, shoot, and jump
 - [Playground](https://github.com/markjaquith/typesafe-ai-playground) — Jev experiments: PHI detect, comment review, live tone, job and industry classify
 - [Prism](https://github.com/irfndi/prism-liquidity-agent) — Jev scores toxic flow, market stress, mean-reversion, and liquidity (shadow only, no live trades)

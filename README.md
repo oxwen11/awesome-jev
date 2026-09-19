@@ -5,8 +5,6 @@ Each line is a project and what Jev does inside it.
 
 License: [CC0-1.0](LICENSE) (list copy only; linked projects keep their own licenses).
 
-Source for the community batch: [X @0xlogicrw](https://x.com/0xlogicrw/status/2100478725393686556).
-
 ## Routing
 
 - [Foreman](https://github.com/thruwire/foreman) — Jev on a Codex worker for semantic supervision on a factory floor
@@ -31,6 +29,7 @@ Source for the community batch: [X @0xlogicrw](https://x.com/0xlogicrw/status/21
 - [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use) — OCR reads the Mac screen; Jev picks the next UI action (~$0.0002/step); [demo thread](https://x.com/awlevin/status/2100262612428894676)
 - [Kyle Jeong + Stagehand](https://x.com/kylejeong/status/2100622054945095934) — a11y tree as state; Jev picks the next browser action, Stagehand executes; ~$0.001/task, near-instant remote browser
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) — Jev watches the Kuru MON-USDC book and posts a post-only limit quote each Monad block (~300ms)
+- [Sprite Fusion realtime levels](https://www.spritefusion.com/blog/generating-game-level-in-real-time-with-jev) — game state in; Jev Choices for next terrain slice (type/width/gap/height); code places blocks (~319–375ms, ~$0.00057/request)
 - [jev-drone](https://github.com/RomanSlack/jev-drone) — classical CV builds the scene; Jev picks maneuver / risk / lost-target at ~2.5Hz in MuJoCo
 - [mobile-jev](https://github.com/droidrun/mobile-jev) — Jev chooses each Android UI action; Uber demo ~21s / 9 actions (to checkout, no purchase)
 

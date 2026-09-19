@@ -6,6 +6,7 @@ Each line is a project and what Jev does inside it.
 ## Routing
 
 - [Foreman](https://github.com/thruwire/foreman) — Jev on a Codex worker for semantic supervision on a factory floor
+- [jev-router](https://github.com/gargpratyush/jev-router) — per-turn routes Claude Code / Codex to cheap vs strong model while keeping each CLI’s native session
 - [SemDecide](https://github.com/sharziki/semdecide) — Jev as a Unix CLI: classify, score, filter, and guard in scripts and CI
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Jev scores how hard each coding turn is, then picks a cheap vs stronger model
 - [safer-with-jev](https://github.com/andrelandgraf/safer-with-jev) — Jev classifies the task, then routes it to Grok or GPT (was typesafe-on-neon)
@@ -18,6 +19,7 @@ Each line is a project and what Jev does inside it.
 ## Realtime
 
 - [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — each step Jev picks the operation and the element from DOM state; small LLM only types; flight search demo 7s / $0.0039; [demo](https://x.com/gregpr07/status/2100411066966749359)
+- [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) — spoken partial transcripts → Jev picks intent/target (~250–350ms); Playwright acts; text spans copied verbatim
 - [WebMCP × Jev bench](https://webmcp.com/benchmark) — Jev picks WebMCP tools; Mercury fills args; 49/49 at ~112×–245× lower model cost vs GPT-6 Astra computer use; [thread](https://x.com/0xidanlevin/status/2100937437325205568) · [WindTunnel](https://github.com/nekuda-ai/WindTunnel)
 - [1v1 Jev](https://github.com/emrickgarrett/OneVOneJev) — Jev at about 9Hz picks move, aim, ADS, shoot, and jump
 - [Playground](https://github.com/markjaquith/typesafe-ai-playground) — Jev experiments: PHI detect, comment review, live tone, job and industry classify
@@ -52,6 +54,11 @@ Each line is a project and what Jev does inside it.
 Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.pinto-cost.workers.dev/tools)
 
 - [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) — Jev as Choice / Score / Noul inside Claude Code, Desktop, and Codex
+- [jev-rules](https://github.com/EliaAlberti/jev-rules) — one Noul per standing rule (“is this request about that?”); Claude Code only sees matching rules
+- [skillbox](https://github.com/kitze/skillbox) — self-hosted skills library (MCP); optional Jev recommends which skill fits the task
+- [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — zsh autosuggestions: Jev ranks which past command you are completing as you type
+- [pg-jev](https://github.com/realZachi/pg-jev) — Postgres extension: filter/rank/classify rows with plain-language Jev conditions in SQL
+- [unclutter](https://github.com/kitze/unclutter) — browser extension: Jev identifies page clutter/ads and hides them via reusable template rules
 - [jev-mcp](https://github.com/jkudish/jev-mcp) — Jev as MCP tools: verify claims, screen prompt injection, rank by meaning
 - [Blink](https://github.com/ellipsis-dev/blink) — at each directory level Jev scores which files or folders matter, then sends more walkers there
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Jev judges which Read / Bash / Grep output is actually relevant before it enters Claude Code context

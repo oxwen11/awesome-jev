@@ -40,6 +40,8 @@ Each line is a project and what Jev does inside it.
 - [Paolo Rosson PR review](https://x.com/redp314/status/2100585126652481915) — paste a diff → one Jev/TypeSafe call → ~14 typed checks as probabilities → BLOCK / security review / nits / merge; ~$0.00007/PR
 - [fx auto-review](https://x.com/fazxes/status/2100300097695232164) — Jev as the safety classifier for fx auto mode; ~5–18× faster and more accurate than GPT-5.6 Luna on their benchmark
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — semantic allow/block on Pi bash/write/edit; fails closed when undecidable (~193–642ms)
+- [pi-warden](https://github.com/DevMortimer/pi-warden) — scores write/edit vs project rules plus irreversible/off-task on tool calls; steers the Pi agent
+- [Jev-Moderation-Bot](https://github.com/brainstormity/Jev-Moderation-Bot) — Choice LEGITIMATE|SPAM|SCAM_LINK plus Noul ban-now? per Discord message
 - [jev-claude](https://github.com/takezou621/jev-claude) — Stop-hook asks if work is actually done → block & continue if not; optional bash triage
 - [triagedy](https://github.com/m0rphtail/triagedy) — per alert: disposition close|escalate|contain|investigate plus severity/FP/IR probabilities; Rust policy maps to action
 - [privacy-facts](https://github.com/thenewpotato/privacy-facts) — ~14 privacy-policy questions as typed labels + confidence; picks supporting policy sections for excerpts
@@ -59,6 +61,8 @@ Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.p
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — zsh autosuggestions: Jev ranks which past command you are completing as you type
 - [pg-jev](https://github.com/realZachi/pg-jev) — Postgres extension: filter/rank/classify rows with plain-language Jev conditions in SQL
 - [unclutter](https://github.com/kitze/unclutter) — browser extension: Jev identifies page clutter/ads and hides them via reusable template rules
+- [notra](https://github.com/usenotra/notra) — Choice sentiment plus rank/position classifiers for GEO / AI-visibility mentions
+- [HA-Jev](https://github.com/AboveColin/HA-Jev) — Noul/Choice/Score on Home Assistant house state → sensors; Assist routes by confidence
 - [jev-mcp](https://github.com/jkudish/jev-mcp) — Jev as MCP tools: verify claims, screen prompt injection, rank by meaning
 - [Blink](https://github.com/ellipsis-dev/blink) — at each directory level Jev scores which files or folders matter, then sends more walkers there
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Jev judges which Read / Bash / Grep output is actually relevant before it enters Claude Code context

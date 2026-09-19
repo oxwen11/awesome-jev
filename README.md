@@ -31,6 +31,7 @@ Each line is a project and what Jev does inside it.
 - [Kyle Jeong + Stagehand](https://x.com/kylejeong/status/2100622054945095934) — a11y tree as state; Jev picks the next browser action, Stagehand executes; ~$0.001/task, near-instant remote browser
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) — Jev watches the Kuru MON-USDC book and posts a post-only limit quote each Monad block (~300ms)
 - [Sprite Fusion realtime levels](https://www.spritefusion.com/blog/generating-game-level-in-real-time-with-jev) — game state in; Jev Choices for next terrain slice (type/width/gap/height); code places blocks (~319–375ms, ~$0.00057/request)
+- [jevpilot](https://github.com/standardagents/jevpilot) — Choice among sampled drive paths at ~1.5–4Hz in a Three.js driving sim
 - [jev-drone](https://github.com/RomanSlack/jev-drone) — classical CV builds the scene; Jev picks maneuver / risk / lost-target at ~2.5Hz in MuJoCo
 - [mobile-jev](https://github.com/droidrun/mobile-jev) — Jev chooses each Android UI action; Uber demo ~21s / 9 actions (to checkout, no purchase)
 

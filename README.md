@@ -43,7 +43,6 @@ Each line is a project and what Jev does inside it.
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — semantic allow/block on Pi bash/write/edit; fails closed when undecidable (~193–642ms)
 - [pi-warden](https://github.com/DevMortimer/pi-warden) — scores write/edit vs project rules plus irreversible/off-task on tool calls; steers the Pi agent
 - [Jev-Moderation-Bot](https://github.com/brainstormity/Jev-Moderation-Bot) — Choice LEGITIMATE|SPAM|SCAM_LINK plus Noul ban-now? per Discord message
-- [jev-claude](https://github.com/takezou621/jev-claude) — Stop-hook asks if work is actually done → block & continue if not; optional bash triage
 - [triagedy](https://github.com/m0rphtail/triagedy) — per alert: disposition close|escalate|contain|investigate plus severity/FP/IR probabilities; Rust policy maps to action
 - [privacy-facts](https://github.com/thenewpotato/privacy-facts) — ~14 privacy-policy questions as typed labels + confidence; picks supporting policy sections for excerpts
 - [sokit](https://github.com/jodan-alberts/sokit) — control questions each turn (next_action / spam-route / draft-safety Noul); ConfidenceGate → act|confirm|escalate

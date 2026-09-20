@@ -6,6 +6,8 @@ Each line is a project and what Jev does inside it.
 ## Routing
 
 - [Foreman](https://github.com/thruwire/foreman) — Jev on a Codex worker for semantic supervision on a factory floor
+- [Codriver](https://github.com/johnpozy/codriver) — per-turn Choice picks which fleet model fits this turn, then rewrites the outbound message
+- [ReflexRoute](https://github.com/AIGNLAI/ReflexRoute) — zero-shot / few-shot Choice routes which model runs next
 - [jev-router](https://github.com/gargpratyush/jev-router) — per-turn routes Claude Code / Codex to cheap vs strong model while keeping each CLI’s native session
 - [SemDecide](https://github.com/sharziki/semdecide) — Jev as a Unix CLI: classify, score, filter, and guard in scripts and CI
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Jev scores how hard each coding turn is, then picks a cheap vs stronger model
@@ -38,6 +40,8 @@ Each line is a project and what Jev does inside it.
 ## Eval
 
 - [Jev Review](https://github.com/devagrawal09/jev-review) — Jev pre-screens correctness, security, reliability, compatibility, and test risk before a heavier model
+- [pi-jev-permit](https://github.com/kurihada/pi-jev-permit) — Pi bash/write/edit calls: Noul permit gate before run
+- [jevmod](https://github.com/ohernandezdev/jevmod) — multi-category Noul moderation (spam/scam/…) with thresholds you own
 - [Paolo Rosson PR review](https://x.com/redp314/status/2100585126652481915) — paste a diff → one Jev/TypeSafe call → ~14 typed checks as probabilities → BLOCK / security review / nits / merge; ~$0.00007/PR
 - [fx auto-review](https://x.com/fazxes/status/2100300097695232164) — Jev as the safety classifier for fx auto mode; ~5–18× faster and more accurate than GPT-5.6 Luna on their benchmark
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — semantic allow/block on Pi bash/write/edit; fails closed when undecidable (~193–642ms)
@@ -49,6 +53,7 @@ Each line is a project and what Jev does inside it.
 
 ## Writing check
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) — Jev scores prose for information density, clarity, hostility, and corporate tells, then the compiler emits rustc-style diagnostics
+- [script-judge](https://github.com/BriyanPatel/script-judge) — Choice approve / revise / reject on a pasted script (does not rewrite it)
 - [Jevibe Check](https://github.com/sriganesh/jevibe-check) — Jev labels drafts and posts for warmth, constructiveness, tension, sarcasm, clarity, and intent
 
 ## Tools

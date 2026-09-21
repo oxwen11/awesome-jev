@@ -6,6 +6,7 @@ Each line is a project and what Jev does inside it.
 ## Routing
 
 - [Foreman](https://github.com/thruwire/foreman) — Jev on a Codex worker for semantic supervision on a factory floor
+- [tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier) — Choice IRS form + page class; code acts only when confidence ≥0.95
 - [Codriver](https://github.com/johnpozy/codriver) — per-turn Choice picks which fleet model fits this turn, then rewrites the outbound message
 - [ReflexRoute](https://github.com/AIGNLAI/ReflexRoute) — zero-shot / few-shot Choice routes which model runs next
 - [jev-router](https://github.com/gargpratyush/jev-router) — per-turn routes Claude Code / Codex to cheap vs strong model while keeping each CLI’s native session
@@ -21,6 +22,9 @@ Each line is a project and what Jev does inside it.
 ## Realtime
 
 - [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — each step Jev picks the operation and the element from DOM state; small LLM only types; flight search demo 7s / $0.0039; [demo](https://x.com/gregpr07/status/2100411066966749359)
+- [jev-triage](https://github.com/maraichr/jev-triage) — Choice case/desk + Score priority + Noul fraud/recall; code sets queue/SLA/next step
+- [Jev-MongoDB](https://github.com/qiaohaojie/Jev-MongoDB) — Choice category + Score mood/urgency/safety on Change Streams; code writes back and pushes a board
+- [youtube-sponsor-detection](https://github.com/trungdq88/youtube-sponsor-detection) — Choice over caption lines / Noul “spoken ad?”; code maps timestamps and skips
 - [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) — spoken partial transcripts → Jev picks intent/target (~250–350ms); Playwright acts; text spans copied verbatim
 - [WebMCP × Jev bench](https://webmcp.com/benchmark) — Jev picks WebMCP tools; Mercury fills args; 49/49 at ~112×–245× lower model cost vs GPT-6 Astra computer use; [thread](https://x.com/0xidanlevin/status/2100937437325205568) · [WindTunnel](https://github.com/nekuda-ai/WindTunnel)
 - [1v1 Jev](https://github.com/emrickgarrett/OneVOneJev) — Jev at about 9Hz picks move, aim, ADS, shoot, and jump
@@ -53,6 +57,7 @@ Each line is a project and what Jev does inside it.
 
 ## Writing check
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) — Jev scores prose for information density, clarity, hostility, and corporate tells, then the compiler emits rustc-style diagnostics
+- [draftpulse](https://github.com/pekth/draftpulse) — Choice draft category + multi Score (hook/specificity/reply/share/dwell/slop); code weights into a label
 - [script-judge](https://github.com/BriyanPatel/script-judge) — Choice approve / revise / reject on a pasted script (does not rewrite it)
 - [Jevibe Check](https://github.com/sriganesh/jevibe-check) — Jev labels drafts and posts for warmth, constructiveness, tension, sarcasm, clarity, and intent
 

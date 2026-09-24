@@ -120,6 +120,8 @@ Each line is a project and what Jev does inside it.
 - [triagedy](https://github.com/m0rphtail/triagedy) — per alert: disposition close|escalate|contain|investigate plus severity/FP/IR probabilities; Rust policy maps to action
 - [privacy-facts](https://github.com/thenewpotato/privacy-facts) — ~14 privacy-policy questions as typed labels + confidence; picks supporting policy sections for excerpts
 - [sokit](https://github.com/jodan-alberts/sokit) — control questions each turn (next_action / spam-route / draft-safety Noul); ConfidenceGate → act|confirm|escalate
+- [jev-belay](https://github.com/valentynkit/jev-belay) - Claude Code Stop hook reads the transcript for evidence since the last check; only when files changed with nothing passing since does it spend one four-question Jev call on whether "done" is unverified; fails open on every error path
+- [jev-commit](https://github.com/valentynkit/jev-commit) - pre-commit hook: one Jev call judges whether the commit message matches the staged diff, plus debug leftovers and unmentioned work; warns except on a leaked credential, which it blocks
 
 ## Writing check
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) — Jev scores prose for information density, clarity, hostility, and corporate tells, then the compiler emits rustc-style diagnostics
@@ -223,3 +225,5 @@ Official SDK / skill / Gateway / docs: [jev.gallery/tools](https://jev-gallery.p
 - [Minecraft realtime](https://x.com/wuyang_zhou/status/2100727660875808913) — Jev for fast realtime actions while a planner LLM plans (multi-zombie fight)
 - [Email triage batch](https://www.youtube.com/watch?v=9oWxrsRo4d8) — batch inbox triage/classify/route (Vogel demo; ~1500 emails in batches of 100)
 - [Every mini vibe check](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds) — 21 AI-writing checks × 37 docs → 777 judgments in under 0.7s (~$0.0025)
+- [jev.nvim](https://github.com/valentynkit/jev.nvim) - ask the buffer a plain-language question; Treesitter splits it into functions, Jev scores each one, answers land in quickfix ranked by probability
+- [jev-skip](https://github.com/valentynkit/jev-skip) - browser extension reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, no crowd database
